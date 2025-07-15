@@ -18,24 +18,13 @@ G2L["1"]["ResetOnSpawn"] = false;
 
 -- StarterGui.LALOL Hub Backdoor.Frame
 G2L["2"] = Instance.new("Frame", G2L["1"]);
-G2L["2"]["BackgroundColor3"] = Color3.fromRGB(28, 28, 34); -- Modern dark gray
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["2"]["Size"] = UDim2.new(0, 482, 0, 276);
-G2L["2"]["Position"] = UDim2.new(0.273, 0, 0.302, 0);
+G2L["2"]["Position"] = UDim2.new(0.27320125699043274, 0, 0.3018597960472107, 0);
 
 -- StarterGui.LALOL Hub Backdoor.Frame.UIStroke
 G2L["3"] = Instance.new("UIStroke", G2L["2"]);
-G2L["3"]["Color"] = Color3.fromRGB(110, 130, 170); -- Muted blue stroke
-
--- StarterGui.LALOL Hub Backdoor.Frame.UIStroke.UIGradient
-G2L["4"] = Instance.new("UIGradient", G2L["3"]);
-G2L["4"]["Rotation"] = 50;
-G2L["4"]["Color"] = ColorSequence.new{
-    ColorSequenceKeypoint.new(0.000, Color3.fromRGB(110, 130, 170)),
-    ColorSequenceKeypoint.new(1.000, Color3.fromRGB(145, 165, 200))
-};
-
--- StarterGui.LALOL Hub Backdoor.Frame.UICorner
-G2L["5"] = Instance.new("UICorner", G2L["2"]);
+G2L["3"]["Color"] = Color3.fromRGB(255, 255, 255);
 
 -- StarterGui.LALOL Hub Backdoor.Frame.Executor
 G2L["6"] = Instance.new("Folder", G2L["2"]);
@@ -46,7 +35,7 @@ G2L["7"] = Instance.new("Frame", G2L["6"]);
 G2L["7"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["7"]["BackgroundTransparency"] = 1;
 G2L["7"]["Size"] = UDim2.new(0, 290, 0, 28);
-G2L["7"]["Position"] = UDim2.new(0.0217, 0, 0.8708, 0);
+G2L["7"]["Position"] = UDim2.new(0.02169983461499214, 0, 0.8708109259605408, 0);
 G2L["7"]["Name"] = [[Execute]];
 
 -- StarterGui.LALOL Hub Backdoor.Frame.Executor.Execute.Button
@@ -54,7 +43,7 @@ G2L["8"] = Instance.new("TextButton", G2L["7"]);
 G2L["8"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["8"]["TextSize"] = 22;
 G2L["8"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["8"]["TextColor3"] = Color3.fromRGB(120, 190, 255); -- Softer blue
+G2L["8"]["TextColor3"] = Color3.fromRGB(51, 215, 0);
 G2L["8"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["8"]["Name"] = [[Button]];
 G2L["8"]["Text"] = [[Execute]];
@@ -63,16 +52,17 @@ G2L["8"]["BackgroundTransparency"] = 1;
 -- StarterGui.LALOL Hub Backdoor.Frame.Executor.Execute.UICorner
 G2L["9"] = Instance.new("UICorner", G2L["7"]);
 
+
 -- StarterGui.LALOL Hub Backdoor.Frame.Executor.Execute.UIStroke
 G2L["a"] = Instance.new("UIStroke", G2L["7"]);
-G2L["a"]["Color"] = Color3.fromRGB(120, 190, 255); -- Match button text
+G2L["a"]["Color"] = Color3.fromRGB(51, 215, 0);
 
 -- StarterGui.LALOL Hub Backdoor.Frame.Executor.Clear
 G2L["b"] = Instance.new("Frame", G2L["6"]);
 G2L["b"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["b"]["BackgroundTransparency"] = 1;
 G2L["b"]["Size"] = UDim2.new(0, 162, 0, 28);
-G2L["b"]["Position"] = UDim2.new(0.6400, 0, 0.8708, 0);
+G2L["b"]["Position"] = UDim2.new(0.6400582790374756, 0, 0.8708109855651855, 0);
 G2L["b"]["Name"] = [[Clear]];
 
 -- StarterGui.LALOL Hub Backdoor.Frame.Executor.Clear.Button
@@ -80,7 +70,7 @@ G2L["c"] = Instance.new("TextButton", G2L["b"]);
 G2L["c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["c"]["TextSize"] = 22;
 G2L["c"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["c"]["TextColor3"] = Color3.fromRGB(160, 140, 255); -- Light purple
+G2L["c"]["TextColor3"] = Color3.fromRGB(36, 236, 203);
 G2L["c"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["c"]["Name"] = [[Button]];
 G2L["c"]["Text"] = [[Clear]];
@@ -89,19 +79,21 @@ G2L["c"]["BackgroundTransparency"] = 1;
 -- StarterGui.LALOL Hub Backdoor.Frame.Executor.Clear.UICorner
 G2L["d"] = Instance.new("UICorner", G2L["b"]);
 
+
 -- StarterGui.LALOL Hub Backdoor.Frame.Executor.Clear.UIStroke
 G2L["e"] = Instance.new("UIStroke", G2L["b"]);
-G2L["e"]["Color"] = Color3.fromRGB(160, 140, 255); -- Match Clear button
+G2L["e"]["Color"] = Color3.fromRGB(36, 236, 203);
 
 -- StarterGui.LALOL Hub Backdoor.Frame.Executor.ExecutorBox
 G2L["f"] = Instance.new("Frame", G2L["6"]);
-G2L["f"]["BackgroundColor3"] = Color3.fromRGB(35, 35, 40); -- Slightly lifted gray
+G2L["f"]["BackgroundColor3"] = Color3.fromRGB(22, 22, 22);
 G2L["f"]["Size"] = UDim2.new(0, 462, 0, 163);
-G2L["f"]["Position"] = UDim2.new(0.0196, 0, 0.2431, 0);
+G2L["f"]["Position"] = UDim2.new(0.01962907239794731, 0, 0.24310137331485748, 0);
 G2L["f"]["Name"] = [[ExecutorBox]];
 
 -- StarterGui.LALOL Hub Backdoor.Frame.Executor.ExecutorBox.UICorner
 G2L["10"] = Instance.new("UICorner", G2L["f"]);
+
 
 -- StarterGui.LALOL Hub Backdoor.Frame.Executor.ExecutorBox.TextBox
 G2L["11"] = Instance.new("TextBox", G2L["f"]);
@@ -110,31 +102,120 @@ G2L["11"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["11"]["TextWrapped"] = true;
 G2L["11"]["TextYAlignment"] = Enum.TextYAlignment.Top;
 G2L["11"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["11"]["TextColor3"] = Color3.fromRGB(200, 200, 200); -- Clean gray text
-G2L["11"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Medium, Enum.FontStyle.Normal);
+G2L["11"]["TextColor3"] = Color3.fromRGB(198, 119, 88);
+G2L["11"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 G2L["11"]["MultiLine"] = true;
 G2L["11"]["BackgroundTransparency"] = 1;
-G2L["11"]["PlaceholderText"] = [[Paste your script here...]];
+G2L["11"]["PlaceholderText"] = [[Put your require or script here!]];
 G2L["11"]["Size"] = UDim2.new(0, 448, 0, 150);
 G2L["11"]["Text"] = [[]];
-G2L["11"]["Position"] = UDim2.new(0.0156, 0, 0.0422, 0);
+G2L["11"]["Position"] = UDim2.new(0.015692640095949173, 0, 0.042270027101039886, 0);
 G2L["11"]["ClearTextOnFocus"] = false;
 
--- (scanner + label section remains similar — can be adjusted further if needed)
+-- StarterGui.LALOL Hub Backdoor.Frame.Executor.ExecutorBox.TextBox.Highlight
+G2L["12"] = Instance.new("LocalScript", G2L["11"]);
+G2L["12"]["Name"] = [[Highlight]];
+
+-- StarterGui.LALOL Hub Backdoor.Frame.Executor.ExecutorBox.TextBox.Highlight.Highlighter
+G2L["13"] = Instance.new("ModuleScript", G2L["12"]);
+G2L["13"]["Name"] = [[Highlighter]];
+
+-- StarterGui.LALOL Hub Backdoor.Frame.Executor.ExecutorBox.TextBox.Highlight.Highlighter.lexer
+G2L["14"] = Instance.new("ModuleScript", G2L["13"]);
+G2L["14"]["Name"] = [[lexer]];
+
+-- StarterGui.LALOL Hub Backdoor.Frame.Executor.ExecutorBox.TextBox.Highlight.Highlighter.lexer.language
+G2L["15"] = Instance.new("ModuleScript", G2L["14"]);
+G2L["15"]["Name"] = [[language]];
+
+-- StarterGui.LALOL Hub Backdoor.Frame.Scanner
+G2L["16"] = Instance.new("Frame", G2L["2"]);
+G2L["16"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["16"]["BackgroundTransparency"] = 1;
+G2L["16"]["Size"] = UDim2.new(0, 370, 0, 107);
+G2L["16"]["Position"] = UDim2.new(0.1166670024394989, 0, 0.30478382110595703, 0);
+G2L["16"]["Visible"] = false;
+G2L["16"]["Name"] = [[Scanner]];
+
+-- StarterGui.LALOL Hub Backdoor.Frame.Scanner.UIStroke
+G2L["17"] = Instance.new("UIStroke", G2L["16"]);
+G2L["17"]["Color"] = Color3.fromRGB(255, 255, 255);
+
+-- StarterGui.LALOL Hub Backdoor.Frame.Scanner.UIStroke.UIGradient
+G2L["18"] = Instance.new("UIGradient", G2L["17"]);
+G2L["18"]["Rotation"] = 50;
+G2L["18"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 108)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 231, 171))};
+
+-- StarterGui.LALOL Hub Backdoor.Frame.Scanner.UICorner
+G2L["19"] = Instance.new("UICorner", G2L["16"]);
+
+
+-- StarterGui.LALOL Hub Backdoor.Frame.Scanner.Button
+G2L["1a"] = Instance.new("TextButton", G2L["16"]);
+G2L["1a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1a"]["TextSize"] = 43;
+G2L["1a"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["1a"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1a"]["Size"] = UDim2.new(1, 0, 1, 0);
+G2L["1a"]["Name"] = [[Button]];
+G2L["1a"]["Text"] = [[Start Scanning]];
+G2L["1a"]["BackgroundTransparency"] = 1;
+
+-- StarterGui.LALOL Hub Backdoor.Frame.Scanner.Button.UIGradient
+G2L["1b"] = Instance.new("UIGradient", G2L["1a"]);
+G2L["1b"]["Rotation"] = 50;
+G2L["1b"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 108)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 231, 171))};
+
+-- StarterGui.LALOL Hub Backdoor.Frame.Scanner.Button.UIStroke
+G2L["1c"] = Instance.new("UIStroke", G2L["1a"]);
+G2L["1c"]["Color"] = Color3.fromRGB(255, 255, 255);
+
 -- StarterGui.LALOL Hub Backdoor.Frame.TextLabel
-G2L["1d"]["TextColor3"] = Color3.fromRGB(240, 240, 255); -- Clean light heading
-G2L["1e"]["Color"] = Color3.fromRGB(160, 140, 255);
-G2L["1f"]["Color"] = ColorSequence.new{
-    ColorSequenceKeypoint.new(0.000, Color3.fromRGB(160, 140, 255)),
-    ColorSequenceKeypoint.new(1.000, Color3.fromRGB(180, 180, 255))
-};
+G2L["1d"] = Instance.new("TextLabel", G2L["2"]);
+G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1d"]["FontFace"] = Font.new([[rbxassetid://12187365977]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["1d"]["TextSize"] = 49;
+G2L["1d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1d"]["Size"] = UDim2.new(0, 460, 0, 50);
+G2L["1d"]["Text"] = [[Clowns]];
+G2L["1d"]["BackgroundTransparency"] = 1;
+G2L["1d"]["Position"] = UDim2.new(0.02169983461499214, 0, 0.025362318381667137, 0);
 
--- Scanner Button Gradient
-G2L["1b"]["Color"] = ColorSequence.new{
-    ColorSequenceKeypoint.new(0.000, Color3.fromRGB(160, 160, 255)),
-    ColorSequenceKeypoint.new(1.000, Color3.fromRGB(200, 200, 255))
-};
+-- StarterGui.LALOL Hub Backdoor.Frame.TextLabel.UIStroke
+G2L["1e"] = Instance.new("UIStroke", G2L["1d"]);
+G2L["1e"]["Color"] = Color3.fromRGB(255, 255, 255);
 
+-- StarterGui.LALOL Hub Backdoor.Frame.TextLabel.UIStroke.UIGradient
+G2L["1f"] = Instance.new("UIGradient", G2L["1e"]);
+G2L["1f"]["Rotation"] = 50;
+G2L["1f"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
+
+-- StarterGui.LALOL Hub Backdoor.LocalScript
+G2L["20"] = Instance.new("LocalScript", G2L["1"]);
+
+
+-- StarterGui.LALOL Hub Backdoor.Dragify
+G2L["21"] = Instance.new("LocalScript", G2L["1"]);
+G2L["21"]["Name"] = [[Dragify]];
+
+-- Require G2L wrapper
+local G2L_REQUIRE = require;
+local G2L_MODULES = {};
+local function require(Module:ModuleScript)
+    local ModuleState = G2L_MODULES[Module];
+    if ModuleState then
+        if not ModuleState.Required then
+            ModuleState.Required = true;
+            ModuleState.Value = ModuleState.Closure();
+        end
+        return ModuleState.Value;
+    end;
+    return G2L_REQUIRE(Module);
+end
+
+G2L_MODULES[G2L["13"]] = {
+Closure = function()
+		local script = G2L["13"];
 --[[
 export type HighlighterColors = { [string]: Color3 }
 
@@ -1333,7 +1414,7 @@ local script = G2L["20"];
 		if lvl==1 then func=print end
 		if lvl==2 then func=error end
 		if lvl==3 then func=warn end
-		func('CLOWNS: '..text)
+		func('LALOL Hub Backdoor: '..text)
 	end
 	
 	function runRemote(remote, data, data2)
@@ -1358,7 +1439,7 @@ local script = G2L["20"];
 		game:GetService('StarterGui'):SetCore(
 			"SendNotification",
 			{
-				Title = "CLOWNS",
+				Title = "LALOL Hub Backdoor",
 				Duration = 6,
 				Text = text
 			}
@@ -1399,7 +1480,7 @@ local script = G2L["20"];
 				code=generateName(math.random(12,30))
 				if not remotes[code] then break end
 			end
-				spawn(function() protected_backdoor:InvokeServer('CLOWNS', "a=Instance.new('Model',workspace)a.Name='"..code.."'") end)
+				spawn(function() protected_backdoor:InvokeServer('lalol hub join today!! discord.gg/XXqzxT7E5z', "a=Instance.new('Model',workspace)a.Name='"..code.."'") end)
 				remotes[code]=protected_backdoor
 			end
 		
