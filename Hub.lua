@@ -1423,7 +1423,7 @@ local script = G2L["20"];
 		if lvl==1 then func=print end
 		if lvl==2 then func=error end
 		if lvl==3 then func=warn end
-		func('LALOL Hub Backdoor: '..text)
+		func('Clowns'..text)
 	end
 	
 	function runRemote(remote, data, data2)
