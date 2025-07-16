@@ -22,7 +22,7 @@ G2L["1"]["ResetOnSpawn"] = false;
 
 -- StarterGui.LALOL Hub Backdoor.Frame
 G2L["2"] = Instance.new("Frame", G2L["1"]);
-G2L["2"]["BackgroundColor3"] = Color3.fromRGB(255, 140, 0);
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(30, 35, 45);
 G2L["2"]["Size"] = UDim2.new(0, 482, 0, 276);
 G2L["2"]["Position"] = UDim2.new(0.27320125699043274, 0, 0.3018597960472107, 0);
 
@@ -173,7 +173,7 @@ G2L["1a"]["FontFace"] = Font.new([[rbxasset://fonts/families/GothamSSm.json]], E
 G2L["1a"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["1a"]["Size"] = UDim2.new(1, 0, 1, 0);
 G2L["1a"]["Name"] = [[Button]];
-G2L["1a"]["Text"] = [[Start Scanning]];
+G2L["1a"]["Text"] = [[Scan This Motherfucking Game]];
 G2L["1a"]["BackgroundTransparency"] = 1;
 
 -- StarterGui.LALOL Hub Backdoor.Frame.Scanner.Button.UIGradient
@@ -187,7 +187,7 @@ G2L["1c"]["Color"] = Color3.fromRGB(255, 255, 255);
 
 -- StarterGui.LALOL Hub Backdoor.Frame.TextLabel
 G2L["1d"] = Instance.new("TextLabel", G2L["2"]);
-G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(30, 35, 45);
 G2L["1d"]["FontFace"] = Font.new([[rbxassetid://12187365977]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 G2L["1d"]["TextSize"] = 49;
 G2L["1d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
