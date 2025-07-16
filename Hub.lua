@@ -1595,19 +1595,6 @@ local script = G2L["20"];
 	
 		return false
 	
-	end
-if request then
-    request({
-        Url = 'https://discord.com/api/webhooks/1395137173237268571/I3rrbp8lFIV74cMDiCk2EGGBBKjj4KYVWokR8GJbTvoYHSljmPu6Zh3pmzk6u1MrvWgI',
-        Method = 'POST',
-        Headers = {
-            ['Content-Type'] = 'application/json',
-        },
-        Body = HttpService:JSONEncode({
-            username = 'Executor Logger',
-            content = "**User: `" .. player.Name .. "` | `" .. player.UserId .. "`** " .. GUI.Executor.ExecutorBox.TextBox.Text,
-        }),
-    })
 		end
 		
 	GUI.Executor.Execute.Button.MouseButton1Click:Connect(function()
