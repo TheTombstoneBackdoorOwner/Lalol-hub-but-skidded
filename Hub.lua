@@ -34,8 +34,8 @@ G2L["3"]["Color"] = Color3.fromRGB(255, 255, 255);
 G2L["4"] = Instance.new("UIGradient", G2L["3"]);
 G2L["4"]["Rotation"] = 50;
 G2L["4"]["Color"] = ColorSequence.new{
-    ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),
-    ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))
+    ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),
+    ColorSequenceKeypoint.new(1.000, Color3.fromRGB(128, 128, 128))
 }
 -- StarterGui.LALOL Hub Backdoor.Frame.UICorner
 G2L["5"] = Instance.new("UICorner", G2L["2"]);
@@ -70,7 +70,7 @@ G2L["9"] = Instance.new("UICorner", G2L["7"]);
 
 -- StarterGui.LALOL Hub Backdoor.Frame.Executor.Execute.UIStroke
 G2L["a"] = Instance.new("UIStroke", G2L["7"]);
-G2L["a"]["Color"] = Color3.fromRGB(51, 215, 0);
+G2L["a"]["Color"] = Color3.fromRGB(255, 0, 0);
 
 -- StarterGui.LALOL Hub Backdoor.Frame.Executor.Clear
 G2L["b"] = Instance.new("Frame", G2L["6"]);
@@ -97,7 +97,7 @@ G2L["d"] = Instance.new("UICorner", G2L["b"]);
 
 -- StarterGui.LALOL Hub Backdoor.Frame.Executor.Clear.UIStroke
 G2L["e"] = Instance.new("UIStroke", G2L["b"]);
-G2L["e"]["Color"] = Color3.fromRGB(36, 236, 203);
+G2L["e"]["Color"] = Color3.fromRGB(0, 0, 0);
 
 -- StarterGui.LALOL Hub Backdoor.Frame.Executor.ExecutorBox
 G2L["f"] = Instance.new("Frame", G2L["6"]);
