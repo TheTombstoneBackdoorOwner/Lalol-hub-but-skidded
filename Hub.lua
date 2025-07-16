@@ -12,7 +12,7 @@ local G2L = {};
 
 -- Welcome hint
 local hint = Instance.new("Hint", workspace)
-hint.Text = "Thanks for using Clowns Backdoor:D (DISCORD: https://discord.gg/qGV9bFpSem Creator: obviously by Debt/R4ddy) Version 0.2"
+hint.Text = "Thanks for using Clowns Backdoor:D (DISCORD: https://discord.gg/qGV9bFpSem Creator: obviously by Debt/R4ddy) Version 0.1"
 
 -- StarterGui.LALOL Hub Backdoor
 G2L["1"] = Instance.new("ScreenGui", game:GetService('CoreGui'):WaitForChild('RobloxGui'));
