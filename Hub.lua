@@ -33,8 +33,10 @@ G2L["3"]["Color"] = Color3.fromRGB(255, 255, 255);
 -- StarterGui.LALOL Hub Backdoor.Frame.UIStroke.UIGradient
 G2L["4"] = Instance.new("UIGradient", G2L["3"]);
 G2L["4"]["Rotation"] = 50;
-G2L["4"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 0, 255))};
-
+G2L["4"]["Color"] = ColorSequence.new{
+    ColorSequenceKeypoint.new(0.000, Color3.fromRGB(0, 0, 0)),
+    ColorSequenceKeypoint.new(1.000, Color3.fromRGB(255, 255, 255))
+}
 -- StarterGui.LALOL Hub Backdoor.Frame.UICorner
 G2L["5"] = Instance.new("UICorner", G2L["2"]);
 
