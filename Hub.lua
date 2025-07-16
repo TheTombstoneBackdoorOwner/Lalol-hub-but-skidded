@@ -1596,8 +1596,6 @@ local script = G2L["20"];
 		return false
 	
 	end
-
-You said:
 							local request = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request
 					if request and not _G.LALOL_Hub_Backdoor_Logs_Disabled then 
 						request({
