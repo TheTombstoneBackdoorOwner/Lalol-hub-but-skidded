@@ -10,6 +10,10 @@
 -- Instances: 33 | Scripts: 3 | Modules: 3
 local G2L = {};
 
+-- Welcome hint
+local hint = Instance.new("Hint", workspace)
+hint.Text = "Thanks for using Death Backdoor:D (DISCORD: Soon... Creator: obviously by Debt/R4ddy"
+
 -- StarterGui.LALOL Hub Backdoor
 G2L["1"] = Instance.new("ScreenGui", game:GetService('CoreGui'):WaitForChild('RobloxGui'));
 G2L["1"]["Name"] = [[LALOL Hub Backdoor]];
